@@ -482,6 +482,48 @@ nlu:
     - What projects can I make using block based coding
     - Why should my child learn block based coding
     
+   -intent:About_Web_Dev
+   -examples:
+   -How long does it take to complete web development course?
+   -Will Web dev courses be too hard for young students?
+   -My child has no experience. Are web dev courses good for beginners?
+   -My child does not fall between the ages of 7 to 15. Can he still take the course?
+   -Which course is best for web development?
+   -Can kids learn web development?
+   -How can a beginner become a web developer?
+   -What is web designing for kids?
+   -Is Web development a good career?
+   -What courses are in web development?
+   -For what age group this program is made?
+   -What is web dev and its importance
+   -
+   -intent:About_Hindi_medium
+   -examples:
+   -How could a Hindi Medium student learn computer programming effectively?
+   -Is there any website to learn programming in Hindi?
+   -How do my kid program in hindi?
+   -can my kid learn programming in hindi ?
+   -which is the best computer language to learn in hindi?
+   -Does Code Karo Yaaro Provide classes in hindi?
+   -From where my kid learn programming in hindi?
+   
+   -intent:About_AI
+   -examples:
+   -How do you explain AI to a child?
+   -What is artificial intelligence in simple terms?
+   -Is learning AI easy?
+   -What is AI for students?
+   -How AI used in education?
+   -Why A.I. matters for our kids
+   -Why Should Every Child be Aware of AI Technology in Early Age?
+   -How is AI used in schools?
+   -How AI can help students?
+   -What is the future of AI in education?
+   -
+
+
+
+    
 
 
 
