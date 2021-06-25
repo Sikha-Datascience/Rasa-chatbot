@@ -114,7 +114,6 @@ nlu:
 - intent: Batch_Size
   examples: |
     - How many students are allowed in one batch?
-    -What Group Sizes of Batch?
 - intent: Course_Info
   examples:  |
     - What course options do you have for older/younger children?
@@ -164,16 +163,6 @@ nlu:
  examples:  |
   -Do you  recommend any books for python coding ?
   -Do you  recommend any books for an 8-10 year old kid coding ?
-  - What are the study materials do provide ?
-    - Do study material will be available in hardcopy or softcopy ?
-    - Can my child will able to understand the study material concepts?
-    - If my child found some doubts in study materials , how will you solve them ?
-    - If my child found doubts in study material , is there is option to sort out them ?
-    - Could I have to pay extra charges for study material ?
-    - study materials are free of cost ?
-    - Do you charge the cost of study material including in fees itself ?
-    - Is study materials are written by your working professionals  or outsiders?
-    - In study materials is there are problems exercises by which my child can practice daily?
 
 -intents: Programming_Language
  examples: |
@@ -247,16 +236,6 @@ nlu:
  examples:  |
   - What is the cost of the course?
   
-- intent: Basic_Course_Content
-  examples:  |
-    - What is given in Basic course?
-    - What is given in Starter course?
-- intent: About_Intermediate_and_Advance_Course
-  examples:  |
-    - what is differece between advance  and intermediate pack?
-- intent: About_Intermediate_and_Professional_Course
-  examples:  |
-    - What's the difference between Intermediate and Professional course?
 - intent: Course-Package
   examples:  |
     - what are you going to teach in scratch programming for Grade 1-4  in starter package? 
@@ -614,19 +593,6 @@ nlu:
     - Do you use professional languages and tools? 
     - Do you offer support from teachers and engineers? 
     - Do you offer support from teachers and engineers? 
-    - Is python possible to learn for a 5th grade student?
-    - Is python possible to learn for a 6th grade student?
-    - Is python possible to learn for a 7th grade student?
-    - Is python possible to learn for a 4th grade student?
-    - Does your institution provide theoretical knowledge or even practical implementation of python is taught?
-    - After completion of course any certificates would be provided?
-    - Any certificates issued?
-    - Any exams conducted during the course plan?
-    - Any exams conducted during the basic course plan for grade 1-4?
-    - Any exams conducted during the intermediate course plan for grade 1-4?
-    - Any exams conducted during the professional course plan for grade 1-4?
-    - Any exams conducted during the basic course plan for grade 5-7?
-    - Do you provide progress report for grade 5-7 students enrolled in basic course?
 
 - intent: word_coding
   examples:  |
@@ -879,6 +845,9 @@ nlu:
 - intent: duration_proffesional
   examples: |
     -What is the duration of Professional course?
+- intent: batch_size
+  examples: |
+    -What Group Sizes of Batch?
 - intent: duration_starter 
   examples: |
     -What is the duration of Starter course?
@@ -1361,7 +1330,15 @@ nlu:
      -Is Python the future?
      -What can my kid do with Python?
      -Why to enroll for Python course?
-  
+   
+ - intent : Ask_nlp
+    examples:  |
+     - Is there a course available on NLP ? 
+     - what is nlp?
+     - full form of nlp?
+     - where nlp is used?
+     - tell me about nlp in detail?
+     - can we use nlp in real life?
 
  - intent : About_PHP
    examples: |
